@@ -1,5 +1,5 @@
 {
-  "name": "myreactnativeapp",
+  "name": "piano",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -9,10 +9,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/webpack-config": "^0.17.0",
     "expo": "~46.0.9",
+    "expo-av": "~12.0.4",
     "expo-status-bar": "~1.4.0",
     "react": "18.0.0",
-    "react-native": "0.69.5"
+    "react-dom": "18.0.0",
+    "react-native": "0.69.6",
+    "react-native-sound": "^0.11.2",
+    "react-native-web": "~0.18.7"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
